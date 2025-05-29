@@ -69,7 +69,21 @@
     background: #333;
     color: #fff;
   }
-
+  .introPhoto{
+    max-width: 15%;
+    height: auto;
+  }
+  .introDiv{
+    display: flex;
+    flex-direction: row;
+  }
+  .introInfo{
+    margin-left: 5%;
+  }
+  .introduction{
+    margin-bottom: 5%;
+    text-align: start;
+  }
 /* Media Query for 768px and below */
 @media (max-width: 768px) {
     /* Change video width to 100% for smaller screens */
@@ -78,6 +92,9 @@
     }
     iframe {
         width: 100%;
+      }
+      .introPhoto{
+        max-width: 30%;
       }
   }
   
